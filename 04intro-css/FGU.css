@@ -1,7 +1,7 @@
 body{
     font-family: 'Sofia Sans', sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 200;
     margin: 0;
     background-color: #212121;
 }
@@ -70,7 +70,7 @@ main h3 {
 }
 
 main p {
-    color: #939393;
+    color: #a3a3a3;
     margin: 0 0 .3rem 0;
 }
 
@@ -138,5 +138,5 @@ footer{
 }
 
 footer a {
-    color: #212121;
+    color: #f0f9b4;
 }
