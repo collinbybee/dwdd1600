@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Fighting Game University</title>
+        
+        <link rel="stylesheet" href="FGU.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200;700&display=swap" rel="stylesheet">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about fighting game terminology">
+        <meta name="author" content="Collin Bybee">
+        
+    </head>
+        <body>
+            <!-- Start of the page header -->
+            <header>
+                <h1>FIGHTING GAME UNIVERSITY</h1> 
+                <p>Brush Up or Shut Up</p>
+            </header>
+            <!-- Start of the page navigation -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="get-started.html">Getting Started</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="examples.html">Photo Examples</a></li>
+                    <li class="active"><a href="submissions.html">Submit a Term</a></li>
+                </ul>
+            </nav>
+            <!-- Start of the page content -->
+            <main>
+                <h1 id="submissions">TERM SUBMISSION FORM</h1> 
+                
+            <form method="get" class="myForm" action="thanks.html">
+                
+                <fieldset>
+        <legend>Tell Us Yer Name</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            
+            <label>Last Name*<input type="text" name="lname" required></label>
+            
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>Select Franchise</legend>  
+            <label><input type="radio" name="method" value="street"> Street Fighter</label>
+            
+            <label><input type="radio" name="method" value="gear"> Guilty Gear</label>
+            
+            <label><input type="radio" name="method" value="kof"> King of Fighters</label>
+            
+            <label><input type="radio" name="method" value="mvc"> Marvel vs. Capcom</label>
+            
+            <label><input type="radio" name="method" value="smash"> Super Smash Brothers</label>
+        </fieldset>
+            
+            
+        <fieldset>
+        <legend>Term Type</legend>
+            <label><input type="checkbox" name="movename" value="chosen"> Move Name</label>
+            
+            <label><input type="checkbox" name="techniquename" value="chosen"> Technique Name</label>
+            
+            <label><input type="checkbox" name="setplayname" value="chosen"> Setplay Name</label>
+            
+            
+            <label>Term Obscurity
+            <select name="time">
+                <option value="none"> Please Select</option>
+                <option value="vcommon"> Very Common</option>
+                <option value="common"> Common</option>
+                <option value="rare"> Rare</option>
+                <option value="vrare"> Very Rare</option>
+            </select>
+            </label>    
+        </fieldset>
+            
+            
+        <label>Comments
+            <textarea name="comments">Nitty gritty here, please.</textarea>
+        </label>
+                
+                
+                
+                
+                
+                
+                
+                <input type="submit" value="Send Term Submission">
+            </form>
+            <a href="submissions.html#submissions">Back to Top</a>
+                
+            </main>
+            <!-- Start of the page footer -->
+            <footer>
+                <p>&copy; 2023 &bull; Collin Bybee &bull; <a href="mailto:10870573@uvu.edu">Email Us</a></p>
+            </footer>
+            
+        </body>
+</html>
+        
