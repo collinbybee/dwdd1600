@@ -1,0 +1,334 @@
+/* prevent problems with different browsers */
+* {box-sizing: border-box;}
+
+body{
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    margin: 0;
+    background-color: #212121;
+    background-image: linear-gradient(#212121, #212121, black);
+}
+
+/* Header Stuff Here */
+header {
+    background-color: #212121;
+    padding: 1rem 2vw;
+    align-items: flex-end;
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+    color: #f0f9b4;
+}
+
+header div {
+    padding-left: 2vw;
+}
+
+header p {
+    margin: 0;
+    color: #f0f9b4;
+    letter-spacing: .5px;
+}
+
+
+/* SMALL screens */
+@media only screen and (max-width: 830px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+    
+    nav a {
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: #d667c1;
+        border: solid 2px #212121;
+        color: #212121;
+    }
+    
+    nav .active a {
+        background-color: #f0f9b4;
+        color: #212121;
+    
+   
+    
+    }
+} /* end of the media query */
+
+
+/* BIG screens */
+@media only screen and (min-width: 831px) {
+nav {
+    background-color: #d667c1;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+    
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #212121;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+    text-align: center;
+}
+
+nav li.active a {
+    background-color:#212121;
+    color:#f0f9b4;
+    
+}
+
+nav a:hover {
+    color: #f0f9b4;
+} 
+    
+} /* end of the media query */
+
+
+/* Nav Stuff Here */
+
+
+/* Main Stuff Here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #e8e8e8;
+}
+
+main h2 {
+    color: #f0f9b4;
+    margin-bottom: .2rem;
+}
+
+main h3 {
+    color: #d667c1;
+}
+
+main p {
+    color: #a3a3a3;
+    margin: 0 0 .3rem 0;
+}
+
+main p strong {
+    color: #d667c1;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #212121;
+    list-style-type: disc;
+    color: #e8e8e8;
+    border: 1px solid #f0f9b4;
+}
+
+main dl dt {
+    color: #d667c1;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #e8e8e8;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    color: #d667c1;
+}
+
+main address {
+    font-style: normal;
+    font-weight: 700;
+    background-color: #212121;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #f0f9b4;
+    color: #e8e8e8;
+}
+
+main a {
+    color: #d667c1;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #f0f9b4;
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #a3a3a3;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #a3a3a3;
+}
+
+div.gallery img:hover {
+    box-shadow: 0px 0px 10px #f0f9b4;
+}
+
+.fguhero {
+    width: 100%;
+    margin: 0;
+}
+
+.fguhero img {
+    width: 100%;
+    height: auto;
+}
+
+/* Submission Stuff Here */
+
+.myForm fieldset {
+    border: 1px solid #f0f9b4;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.myForm legend {
+    color: #212121;
+    background-color: #d667c1;
+    font-size: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: .1rem;
+    padding-top: .1rem;
+}
+
+.myForm label {
+    margin: .5rem;
+    font-weight: 200;
+    color: #f0f9b4;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+    display: block;  
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+    border: solid 1px #d667c1;
+    padding: .3rem;
+    width: 250px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    background-color: #212121;
+    color: #f0f9b4;
+}
+
+.myForm [type=text], .myForm [type=tel] {
+    color: #e8e8e8;
+}
+
+.myForm textarea {
+    height: 6rem;
+    color: #e8e8e8;
+}
+
+.myForm :required {
+    background-color: rgba(214,103,193,0.1);
+    border-left: 10px solid #d667c1
+}
+
+.myForm [type=submit] {
+    background-color: #d667c1;
+    border: none;
+    padding: 1rem 2rem;
+    color: #212121;
+    margin: 1rem 1rem 1rem 0.1rem;
+}
+
+table.evo-stats {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.evo-stats th {
+    background-color: #d667c1;
+    color: #212121;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+
+table.evo-stats td {
+    color: #e8e8e8;
+    padding: .4rem 2vw;
+}
+
+table.evo-stats tr:nth-child(odd) {
+    background-color: rgba(232, 232, 232, .2);
+}
+
+table.evo-stats tr:hover {
+    background-color: rgba(240,249,180,0.4);
+}
+
+
+/* Footer Stuff Here*/
+
+footer{
+    background-color: #212121;
+    text-align: center;
+    color: #f0f9b4;
+    padding: 1rem 0;
+    margin: 1.5rem;
+    font-size: .8rem;
+    border: 1px solid #f0f9b4;
+    clear:both;
+}
+
+footer a {
+    color: #f0f9b4;
+}
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
